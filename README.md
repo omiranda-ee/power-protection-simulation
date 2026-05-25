@@ -65,7 +65,7 @@ Clean sinusoidal voltage and current at rated conditions before the fault is app
 
 Short-circuit fault applied across Load 2. Feeder current spikes to ~1500A peak and secondary voltage collapses.
 
-![fault event](/docs/fault_event.pdf)
+![fault event](/docs/fault_event.png)
 
 ---
 
