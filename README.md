@@ -57,7 +57,7 @@ The relay monitors the absolute value of feeder current. When it exceeds 50A, it
 
 Clean sinusoidal voltage and current at rated conditions before the fault is applied.
 
-![normal operation](/docs/normal_operation.png)
+![normal operation](/docs/normal_operation.png?raw=true)
 
 ---
 
@@ -65,7 +65,7 @@ Clean sinusoidal voltage and current at rated conditions before the fault is app
 
 Short-circuit fault applied across Load 2. Feeder current spikes to ~1500A peak and secondary voltage collapses.
 
-![fault event](/docs/fault_event.png)
+![fault event](/docs/fault_event.png?raw=true)
 
 ---
 
@@ -73,7 +73,7 @@ Short-circuit fault applied across Load 2. Feeder current spikes to ~1500A peak 
 
 Overcurrent relay detects the fault within one cycle, trips the breaker, and latches open. Feeder current drops to zero and remains there for the rest of the simulation.
 
-![relay trip](/docs/relay_trip.png)
+![relay trip](/docs/relay_trip.png?raw=true)
 
 ---
 
@@ -86,11 +86,10 @@ power-protection-simulation/
 ├── /simulation
 │     └── power_protection_sim.slx       ← Simulink model
 ├── /docs
-│     ├── normal_operation.pdf           ← Scope output, pre-fault
-│     ├── fault_event.pdf                ← Scope output, fault at t=0.05s
-│     └── relay_trip.pdf                 ← Relay trip and breaker isolation
-└── /hardware
-      └── (schematics — future)
+     ├── normal_operation.png           ← Scope output, pre-fault
+     ├── fault_event.png                ← Scope output, fault at t=0.05s
+     └── relay_trip.png                 ← Relay trip and breaker isolation
+
 ```
 
 ---
