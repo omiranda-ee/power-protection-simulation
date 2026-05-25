@@ -73,7 +73,7 @@ Short-circuit fault applied across Load 2. Feeder current spikes to ~1500A peak 
 
 Overcurrent relay detects the fault within one cycle, trips the breaker, and latches open. Feeder current drops to zero and remains there for the rest of the simulation.
 
-[View: relay_trip.pdf](docs/relay_trip.pdf)
+![relay trip](/docs/relay_trip.png)
 
 ---
 
