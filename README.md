@@ -86,9 +86,9 @@ power-protection-simulation/
 ├── /simulation
 │     └── power_protection_sim.slx       ← Simulink model
 ├── /docs
-│     ├── normal_operation.pdf           ← Scope output, pre-fault
-│     ├── fault_event.pdf                ← Scope output, fault at t=0.05s
-│     └── relay_trip.pdf                 ← Relay trip and breaker isolation
+│     ├── normal_operation.png           ← Scope output, pre-fault
+│     ├── fault_event.png                ← Scope output, fault at t=0.05s
+│     └── relay_trip.png                 ← Relay trip and breaker isolation
 └── /hardware
       └── (schematics — future)
 ```
