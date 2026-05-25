@@ -57,7 +57,7 @@ The relay monitors the absolute value of feeder current. When it exceeds 50A, it
 
 Clean sinusoidal voltage and current at rated conditions before the fault is applied.
 
-![normal operation](docs/normal_operation.png)
+![normal operation](/docs/normal_operation.png)
 
 ---
 
